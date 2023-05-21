@@ -66,7 +66,7 @@ const ArticlePage = ({ source, frontmatter }: RenderArticleMeta) => {
         />
         <meta
           property="og:url"
-          content={`https://.dev/articles/${frontmatter.slug}`}
+          content={`https://.com/articles/${frontmatter.slug}`}
         />
         <meta property="og:type" content="website" />
       </Head>

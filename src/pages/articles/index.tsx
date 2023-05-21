@@ -38,7 +38,7 @@ const Articles = ({
         />
         <meta
           property="og:url"
-          content={`https://.dev/articles`}
+          content={`https://.com/articles`}
         />
         <meta property="og:type" content="website" />
       </Head>
