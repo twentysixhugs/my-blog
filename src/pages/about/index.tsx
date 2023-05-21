@@ -27,9 +27,12 @@ const About = ({ avatarSrc }: { avatarSrc: string }) => {
         <meta property="og:title" content="About me -  " />
         <meta
           property="og:description"
-          content="The story behind why I write"
+          content="A frontend developer. Passionate about exploring the latest technologies and continuously improving my skills in web development."
         />
-        <meta property="og:url" content="https://.com/about" />
+        <meta
+          property="og:url"
+          content={`${process.env.NEXT_PUBLIC_DOMAIN_NAME}/about`}
+        />
         <meta property="og:type" content="website" />
       </Head>
       <AboutView avatarSrc={avatarSrc} />
